@@ -54,7 +54,6 @@ int main(int argc, char* argv[])
   myfile.open ("freqs.txt");
   myfile << "Frequencies in cm^-1\n";
   for (int i=0; i < num_modes; i++){
-    std::cout << evals << "\n";
     myfile << sqrt(evals(evals.size()-1-i))*EigenValueInCm() << "\n";
   }
   myfile.close();
