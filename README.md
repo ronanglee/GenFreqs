@@ -11,6 +11,10 @@ Note
 
   `# git clone https://github.com/ronanglee/GenFreqs.git`
 
+  Enter `GenFreqs` directory
+
+  `# cd GenFreqs`
+
   Make the build folder  
 
   `# mkdir build`
