@@ -5,9 +5,6 @@ set (CMAKE_CXX_STANDARD 11)
 include(CTest)
 enable_testing()
 
-include_directories(GenFreq declare.h)
-include_directories(GenFreq constnant.h)
-
 add_executable(GenFreq main.cc funcs.cc)
 
 
