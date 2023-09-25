@@ -4,7 +4,7 @@ Calculate vibrational frequencies from a user-supplied Hessian and geometry file
 Note  
 - Only works for non-linear molecules
 - Should not be used in production calculations
-- No format checking is done for input files
+- No format checking is done on input files
 
   ## Installation
   Firstly, clone into the repository  
