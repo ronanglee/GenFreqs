@@ -17,22 +17,22 @@ Note
 
   Enter build folder  
 
-  `cd build`
+  `# cd build`
 
   Generate make files
 
-  `cmake ..`
+  `# cmake ..`
 
   Compile source files and link to the final executable
 
-  `make`
+  `# make`
 
   ## Usage
 
   The `GenFreq` executable needs to be run with two other arguments, `example.dat` `example.hess` containing
   the input geometry and Hessian respectively  
 
-  `GenFreq example.dat example.hess`
+  `# GenFreq example.dat example.hess`
   
 
   
