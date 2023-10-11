@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
   typedef Eigen::Matrix<double, Eigen::Dynamic, 1> Vector;
 
   // check for correct number of arguments and correct extension
-  assert(argc == 3 && "Program needs a .geom and .txt file as arguments.");
+  assert(argc == 3 && "Program needs a .dat and .txt file as arguments.");
 
   std::list<std::string> extensions = {".dat", ".txt"};
    
